@@ -11,12 +11,12 @@ import xml.dom.minidom
 # "blacklistFolder1": "O:/Games_folder/steamapps/workshop/content/244850/3000136372"
 
 your_gameContentData_folder = {
-    "vanillaGamePath": "O:\\Games_folder\\steamapps\\common\\SpaceEngineers\\Content\\Data"
-    ,"modFolder1": "O:\\Games_folder\\steamapps\\workshop\\content\\244850"
+    "vanillaGamePath": "[Insert your game folder path here]"
+    ,"modFolder1": "[Insert your mod folder path here]"
     # ,"modFolder2": "[Insert your mod folder path here]"
     }
 your_contentBlacklist_folder = {
-    "blacklistFolder1": "O:\\Games_folder\\steamapps\\workshop\\content\\244850\\3000136372\\Data"
+    "blacklistFolder1": "[Insert your mod folder path here]"
     # ,"blacklistFolder2": "[Insert your blacklist folder here]"
     }
 
