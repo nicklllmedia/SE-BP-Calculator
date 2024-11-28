@@ -179,7 +179,7 @@ def write_to_output_file(output_path, components, blueprints, cube_blocks):
         print(f"Error writing to output file: {e}")
 
 if __name__ == "__main__":
-    output_file = os.path.join(os.path.dirname(__file__), 'debug1.xml')
+    output_file = os.path.join(os.path.dirname(__file__), 'parsedData.xml')
 
     components, blueprints, cube_blocks = parse_sbc_files(your_gameContentData_folder, your_contentBlacklist_folder)
     write_to_output_file(output_file, components, blueprints, cube_blocks)
