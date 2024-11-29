@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<Definitions>
+   <DisplayName Name="Mistress Riviera - 331151 (Setup #1)">
+      <Component Subtype="SteelPlate" Count="101775"/>
+      <Component Subtype="Construction" Count="29396"/>
+   </DisplayName>
+   <DisplayName Name="00-LGTestGrid">
+      <Component Subtype="SteelPlate" Count="2122702"/>
+      <Component Subtype="Cerambet" Count="33338"/>
+      <Component Subtype="Construction" Count="997737"/>
+   </DisplayName>
+   <Total>
+      <Component Subtype="SteelPlate" Count="2224781"/>
+      <Component Subtype="Construction" Count="1027251"/>
+   </Total>
+</Definitions>
