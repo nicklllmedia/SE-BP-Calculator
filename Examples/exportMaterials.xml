@@ -1,0 +1,13 @@
+<!-- Example of materialsExtraction -->
+<?xml version="1.0" ?>
+<Definitions>
+    <DisplayName Name="01-LGTestGrid">
+        <Component Subtype="Iron" Count="6191270.0" TypeId="Ingot"/>
+        <Component Subtype="Cobalt" Count="218304.0" TypeId="Ingot"/>
+        <Component Subtype="Gold" Count="384.0" TypeId="Ingot"/>
+    </DisplayName>
+    <Total>
+        <Component Subtype="Iron" Count="6191270.0" TypeId="Ingot"/>
+        <Component Subtype="Cobalt" Count="218304.0" TypeId="Ingot"/>
+    </Total>
+</Definitions>
