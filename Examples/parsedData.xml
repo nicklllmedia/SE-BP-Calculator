@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions>
+    <Components>
+        <Component>
+            <SubtypeId>Construction</SubtypeId>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+        </Component>
+        <Component>
+            <SubtypeId>SteelPlate</SubtypeId>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+        </Component>
+	</Components>
+	<Blueprints>
+        <Blueprint>
+            <SubtypeId>SteelPlate</SubtypeId>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Prerequisites>
+                <Item Amount="21.0" TypeId="Ingot" SubtypeId="Iron"/>
+            </Prerequisites>
+            <Results/>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate"/>
+        </Blueprint>
+        <Blueprint>
+            <SubtypeId>ConstructionComponent</SubtypeId>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Prerequisites>
+                <Item Amount="8.0" TypeId="Ingot" SubtypeId="Iron"/>
+            </Prerequisites>
+            <Results/>
+            <Result Amount="1" TypeId="Component" SubtypeId="Construction"/>
+        </Blueprint>
+	</Blueprints>
+	<CubeBlocks>
+        <Definition>
+            <SubtypeId>LargeBlockArmorBlock</SubtypeId>
+            <DisplayName>DisplayName_Block_LightArmorBlock</DisplayName>
+            <CubeSize>Large</CubeSize>
+            <Components>
+                <Component Subtype="SteelPlate" Count="25"/>
+            </Components>
+        </Definition>
+        <Definition>
+            <SubtypeId>SmallProjector</SubtypeId>
+            <DisplayName>DisplayName_Block_Projector</DisplayName>
+            <CubeSize>Small</CubeSize>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2"/>
+                <Component Subtype="Construction" Count="2"/>
+                <Component Subtype="LargeTube" Count="2"/>
+                <Component Subtype="Motor" Count="1"/>
+                <Component Subtype="Robotics" Count="8"/>
+                <Component Subtype="Stabilizer" Count="22"/>
+                <Component Subtype="PalladiumComponent" Count="72"/>
+                <Component Subtype="Computer" Count="2"/>
+            </Components>
+        </Definition>
+	</CubeBlocks>
+</Definitions>
